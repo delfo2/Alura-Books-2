@@ -15,7 +15,7 @@ body {
 }
 
 .wrap {
-  width: 1280px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -23,14 +23,15 @@ body {
   text-align: center;
   width: 100%;
   background-color: var(--bg-color);
-  margin: 15px 15px;
+  margin: 15px 0;
 }
 
 .banner {
-  background-image: url('/imagens/Banner-1.png');
+  background-image: url('./imagens/Banner-1.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 278px;
+  width: 100%;
 }
 
 .nav {
